@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 
 	InitializeGlutCallbacks();
 
-	glClearColor(1.0f, 0.0f, 0.0f, 0.0f);
+	glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
 
 	glutMainLoop();
 
