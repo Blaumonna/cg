@@ -1,10 +1,14 @@
 # Computer Graphics LW1
 # Part 1
+glutInit(&argc, argv); - Initializing GLUT
+glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA); - set the display mode for the window. GLUT_DOUBLE - output to the window is carried out using 2 buffers. GLUT_RGBA - to display graphical information, 4 color components RGB and ALPHA are used.
+
+	
 	glClear(GL_COLOR_BUFFER_BIT);
 	glutSwapBuffers();
 	glutDisplayFunc(RenderSceneCB);
-	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+	
+	
 	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("Lab 1");
