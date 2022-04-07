@@ -13,7 +13,7 @@
 
 **glutInitWindowPosition**(100, 100); - position.
 
-**glutCreateWindow**("Lab 1"); - name.
+**glutCreateWindow**("Lab 1"); - creates the window and sets the name.
 
 **InitializeGlutCallbacks();**
 
